@@ -56,7 +56,7 @@ Loan term (years): 30
 44000 744.77
 ```
 
-3. (8 points) Which down payment amount results in a monthly payment of $750? Solve this problem using the bisection search method discussed in class. Put your solution in a script called `search.py` that looks like this when run:
+4. (8 points) Which down payment amount results in a monthly payment of $750? Solve this problem using the bisection search method discussed in class. Put your solution in a script called `search.py` that looks like this when run:
 ```bash
 $ python search.py
 Home price: 200000
