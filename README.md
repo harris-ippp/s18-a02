@@ -55,3 +55,26 @@ Loan term (years): 30
 43000 749.54
 44000 744.77
 ```
+
+d. Which down payment amount results in a monthly payment of $750? Solve this problem using the bisection search method discussed in class. Put your solution in a script called `search.py` that looks like this when run:
+```bash
+$ python search.py
+Home price: 200000
+Interest rate: 4
+Loan term (years): 30
+Desired monthly payment: 750
+
+Down payment: ????
+```
+Where down payment is the down payment (within $.01) that results in a down payment of $750 per month.
+
+Hints: Replace 
+
+```Fc = c**2 - x``` 
+
+that was used for the `sqrt(x)` example in class with
+
+```Fc = mortgage_payment(...)```
+
+Also, note that whereas the square root function was increasing in x, the mortgage payment function is decreasing in the down payment size. So you'll need to reverse the logic in the loop for updating the search interval.
+
