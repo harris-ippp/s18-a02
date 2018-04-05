@@ -66,7 +66,7 @@ Desired monthly payment: 750
 
 Down payment: ????
 ```
-Where down payment is the down payment (within $.01) that results in a down payment of $750 per month.
+Where the question marks are replaced with the down payment (within $.01) that results in a monthly payment of $750 per month.
 
 Hints: Replace 
 
