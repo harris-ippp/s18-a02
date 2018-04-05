@@ -6,7 +6,12 @@ Given a loan with value `l`, `p` periods, and per-period interest rate `r`, the 
     ------------
     1-(1+r)^(-p)
 
-a. Write a python function to implementing this and save it in `mortgage.py`. Note that mortgage.py already contains the skeleton of the function:
+a. Write a python function to implementing this and save it in `mortgage.py`. Hint: start with this skeleton:
+```
+# mortgage.py
+def mortgage_payment(loan, periods, rate):
+    return 0.0
+```
 
 b. Create an interactive mortgage calculator in the `calculator.py` file using the following steps:
 
