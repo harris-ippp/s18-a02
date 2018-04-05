@@ -23,7 +23,7 @@ def mortgage_payment(loan, periods, rate):
  - Import the `mortgage` module from (a)
  - Call your `mortgage_payment()` function with the appropriate inputs
  - Import the `math` module
- - Print the answer rounded to the nearest cent using the [`math.round`](https://docs.python.org/3/library/functions.html#round) function.
+ - Print the answer rounded to the nearest cent using the [`round`](https://docs.python.org/3/library/functions.html#round) function.
 
 For example, when the Home Value is $200,000 and down payment is $40,000 and the interest rate 4% and the term is 30 years, the program should look like:
 ```bash
