@@ -1,6 +1,5 @@
 # Assignment 2: Welcome to Python
 
-## Part 2: Mortgage Calculator
 Given a loan with value `l`, `p` periods, and per-period interest rate `r`, the period payment is given by:
 
         r*l
