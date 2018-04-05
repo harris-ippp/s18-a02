@@ -1,6 +1,6 @@
 # Assignment 2: Welcome to Python
 
-Given a loan with value `l`, `p` periods, and per-period interest rate `r`, the period payment is given by:
+Given a loan with value `l`, `p` periods, and per-period interest rate `r`, the period payment is given mathematically as:
 
         r*l
     ------------
@@ -17,9 +17,9 @@ b. Create an interactive mortgage calculator in the `calculator.py` file using t
 
  - Use the `input()` function to prompt the user to enter the following: Home Value, Down Payment, Term (in years), and (Annual) interest rate
  - Convert the inputted text values into floats
- - Calculate the `l`, the loan (home value minus down payment)
- - Calculate the number of monthly periods `p` in the loan
- - Calculate the monthly interest rate `r`
+ - Calculate the loan amount (home value minus down payment)
+ - Calculate the number of monthly periods in the loan
+ - Calculate the monthly interest rate
  - Call your `mortgage_payment()` function
  - Print the answer rounded to the nearest cent using the [`math.round`](https://docs.python.org/3/library/functions.html#round) function.
 
