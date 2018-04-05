@@ -6,14 +6,14 @@ Given a loan with value `l`, `p` periods, and per-period interest rate `r`, the 
     ------------
     1-(1+r)^(-p)
 
-a. Write a python function to implementing this and save it in `mortgage.py`. Hint: start with this skeleton:
+1. (4 points) Write a python function to implementing this and save it in `mortgage.py`. Hint: start with this skeleton:
 ```python
 # mortgage.py
 def mortgage_payment(loan, periods, rate):
     return 0.0
 ```
 
-b. Create an interactive mortgage calculator in the `calculator.py` file using the following steps:
+2. (8 points) Create an interactive mortgage calculator in the `calculator.py` file using the following steps:
 
  - Use the `input()` function to prompt the user to enter the following: Home Value, Down Payment, Term (in years), and (Annual) interest rate
  - Convert the inputted text values into floats
@@ -34,7 +34,7 @@ Loan term (years): 30
 Monthly payment: 763.86
 ```
 
-c. Create a new script called `table.py` that is similar to `calculator.py` except instead of prompting for a single down payment, prompts for a minimum and maximum down payment. Then for each $1000 increment in that range, print the corresponding monthly payment. For instance, in the example from (b) with down payment range $35,000 to $45,000 your output should look similar to this:
+3. (8 points) Create a new script called `table.py` that is similar to `calculator.py` except instead of prompting for a single down payment, prompts for a minimum and maximum down payment. Then for each $1000 increment in that range, print the corresponding monthly payment. For instance, in the example from (b) with down payment range $35,000 to $45,000 your output should look similar to this:
 
 ```bash
 $ python table.py
@@ -56,7 +56,7 @@ Loan term (years): 30
 44000 744.77
 ```
 
-d. Which down payment amount results in a monthly payment of $750? Solve this problem using the bisection search method discussed in class. Put your solution in a script called `search.py` that looks like this when run:
+3. (8 points) Which down payment amount results in a monthly payment of $750? Solve this problem using the bisection search method discussed in class. Put your solution in a script called `search.py` that looks like this when run:
 ```bash
 $ python search.py
 Home price: 200000
